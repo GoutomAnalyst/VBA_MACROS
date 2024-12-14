@@ -3,6 +3,8 @@ I have used 3 sample datasets, "Agency Commissions TEST SAMPLE", "Agency Bonus",
 
 2 useful VBA code script given below:
 
+
+
 # 1. VBA code to generate data from the sources:
 
 Sub ImportExcelFiles()
@@ -223,6 +225,8 @@ Sub ApplyBorders(ws As Worksheet, rowIndex As Long, lastCol As Integer, includeF
         End If
     End With
 End Sub
+
+
 
 # 2. Creating History/Record if data add or delete from the workspace
 
