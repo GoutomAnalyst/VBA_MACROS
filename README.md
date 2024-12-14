@@ -4,8 +4,7 @@ I have used 3 sample datasets, "Agency Commissions TEST SAMPLE", "Agency Bonus",
 2 useful VBA code script given below:
 
 
-
-# 1. VBA code to generate data from the sources:
+1. VBA code to generate data from the sources:
 
 Sub ImportExcelFiles()
     Dim ws As Worksheet
@@ -228,7 +227,7 @@ End Sub
 
 
 
-# 2. Creating History/Record if data add or delete from the workspace
+2. Creating History/Record if data add or delete from the workspace
 
 Private Sub Worksheet_Change(ByVal Target As Range)
     Dim wsHistory As Worksheet
